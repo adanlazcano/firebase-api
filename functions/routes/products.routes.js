@@ -1,6 +1,6 @@
-const { Router } = require('express');
+const { Router } = require("express");
 const router = Router();
-const admin = require('firebase-admin');
+const admin = require("firebase-admin");
 
 
 const db = admin.firestore();
